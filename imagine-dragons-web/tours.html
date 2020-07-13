@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>The website of Imagine Dragons</title>
+  </head>
+
+  <body>
+    <div id="nav-placeholder"></div>
+
+    <main>
+        <article>
+            <h1>Tours Page:</h1>
+        </article>
+    </main>
+
+    <div id="footer-placeholder"></div>
+  </body>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("components/nav.html");
+      $("#footer-placeholder").load("components/copyright.html");
+    });
+  </script>
+</html>
