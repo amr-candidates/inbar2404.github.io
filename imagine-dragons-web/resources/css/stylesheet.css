@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+}
+p {
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+.page-title {
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    font-size: 3em;
+    display: inline;
+}
+li + li {
+    margin-left: 4em;
+}
+footer {
+    text-align: center;
+    padding-top: 1em;
+}
