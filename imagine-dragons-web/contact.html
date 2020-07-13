@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>The website of Imagine Dragons</title>
+  </head>
+
+  <body>
+    <div id="nav-placeholder"></div>
+
+    <main>
+        <h1>Contact Imagine Dragons!</h1>
+        
+        <form>
+        
+        <label for="firstName">First Name:</label>
+	    <input type="text" class="text" id="firstName" required/>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" class="text" id="lastName" required/>
+        
+        <label for="birthDate">Birth Date:</label>
+        <select id="birthDateYears">
+        </select>
+
+	    <label for="email">Email:</label>
+	    <input type="email" class="email" id="email" pattern="^[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required/>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" class="text" id="phoneNumber" pattern="[0-9]{3}-[0-9]{7}" required/>
+        
+	    <input type="submit" class="submit" value="Send" />
+        
+        </form>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+  </body>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("components/nav.html");
+      $("#footer-placeholder").load("components/copyright.html");
+      
+      let options = ""
+      for(let currentYear=2020; currentYear>1920; currentYear--){
+          options += "<option>" + currentYear + "</option>";
+      }
+      $("#birthDateYears").append(options);
+    });
+  </script>
+</html>

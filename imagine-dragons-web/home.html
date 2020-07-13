@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>The website of Imagine Dragons</title>
+  </head>
+
+  <body>
+    <div id="nav-placeholder"></div>
+
+    <main>
+        <p>Imagine Dragons</p>
+        <figure>
+            <img src="resources\images\imagine-dragons.jpg" alt="imagine-dragons">
+        </figure>
+        <cite>"I'm never changing who I am"</cite>
+        <p>Description: Imagine Dragons is an American pop rock band from Las Vegas, Nevada, consisting of lead singer Dan Reynolds, lead guitarist Wayne Sermon, bassist Ben McKee, and drummer Daniel Platzman.
+                        The band first gained exposure with the release of their single "It's Time", followed by their award-winning debut studio album Night Visions (2012), which resulted in the chart-topping singles "Radioactive" and "Demons".
+                        Rolling Stone named "Radioactive", which holds the record for most weeks charted on the Billboard Hot 100, the "biggest rock hit of the year".</p>
+    </main>
+
+    <div id="footer-placeholder"></div>
+  </body>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("components/nav.html");
+      $("#footer-placeholder").load("components/copyright.html");
+    });
+  </script>
+</html>
