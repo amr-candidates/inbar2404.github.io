@@ -11,6 +11,9 @@ a:link {
 a:visited {
     color: black;
 }
+nav a:active, li.selected {
+    color: white;
+}
 .page-title {
     font-size: 6em;
     color: white;
