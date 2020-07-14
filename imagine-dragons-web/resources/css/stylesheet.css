@@ -16,6 +16,16 @@ a:visited {
     color: white;
     text-align: center;
 }
+#home-img {
+    padding-top: 24%;
+    width: 23vw;
+    background-image: url("../images/imagine-dragons.jpg");
+}
+.center {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
 nav {
     text-align: center;
 }
@@ -28,5 +38,5 @@ li + li {
 }
 footer {
     text-align: center;
-    padding-top: 1em;
+    padding-top: 2em;
 }
