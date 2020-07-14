@@ -1,0 +1,9 @@
+.contact {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: gray;
+}
