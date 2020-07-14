@@ -1,0 +1,47 @@
+/* GENERAL */
+body {
+    background-color: lightblue;
+}
+p {
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+
+/* CLASSES I CREATED */
+.page-title {
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
+.center {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+/* NAV */
+nav a:active, li.selected {
+    color: white;
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    font-size: 3em;
+    display: inline;
+}
+li + li {
+    margin-left: 4em;
+}
+
+/* COPYRIGHT */
+footer {
+    text-align: center;
+    padding-top: 2em;
+}

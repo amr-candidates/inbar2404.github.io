@@ -1,0 +1,20 @@
+#col1, #col2, #col3, #col4 {
+    padding-right: 5vw;
+    margin-top: 0;
+}
+#col1 {
+    width: 10vw;
+    font-size: 2em;
+}
+#col2 {
+    width: 10vw;
+}
+#col3 {
+    width: 40vw;
+    font-size: 1em;
+}
+.song {
+    width: 100%;
+    display: inline-flex;
+    padding-bottom: 10vh;
+}

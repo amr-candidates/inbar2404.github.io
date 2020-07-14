@@ -5,31 +5,33 @@
   <head>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>The website of Imagine Dragons</title>
+    <link rel="stylesheet" type="text/css" href="resources\css\stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="resources\css\contact-stylesheet.css">
   </head>
 
   <body>
     <div id="nav-placeholder"></div>
 
     <main>
-        <h1>Contact Imagine Dragons!</h1>
+        <h1 class="page-title">Contact Imagine Dragons!</h1>
         
-        <form>
+        <form class="contact">
         
         <label for="firstName">First Name:</label>
-	    <input type="text" class="text" id="firstName" required/>
+	    <input type="text" class="text" id="first-name" required/>
 
         <label for="lastName">Last Name:</label>
-        <input type="text" class="text" id="lastName" required/>
+        <input type="text" class="text" id="last-name" required/>
         
         <label for="birthDate">Birth Date:</label>
-        <select id="birthDateYears">
+        <select id="birth-date-years">
         </select>
 
 	    <label for="email">Email:</label>
 	    <input type="email" class="email" id="email" pattern="^[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required/>
 
         <label for="phoneNumber">Phone Number:</label>
-        <input type="tel" class="text" id="phoneNumber" pattern="[0-9]{3}-[0-9]{7}" required/>
+        <input type="tel" class="text" id="phone-number" pattern="[0-9]{3}-[0-9]{7}" required/>
         
 	    <input type="submit" class="submit" value="Send" />
         
@@ -48,7 +50,7 @@
       for(let currentYear=2020; currentYear>1920; currentYear--){
           options += "<option>" + currentYear + "</option>";
       }
-      $("#birthDateYears").append(options);
+      $("#birth-date-years").append(options);
     });
   </script>
 </html>
