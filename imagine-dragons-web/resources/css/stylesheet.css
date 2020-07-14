@@ -34,6 +34,15 @@ nav a:active, li.selected {
     display: inline-flex;
     padding-bottom: 10vh;
 }
+.tour {
+    padding-bottom: 2vh;
+}
+strong {
+    color: red;
+}
+.sold-out:hover {
+    background-color: red;
+}
 .page-title {
     font-size: 6em;
     color: white;
