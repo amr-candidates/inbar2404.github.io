@@ -1,0 +1,9 @@
+.tour {
+    padding-bottom: 2vh;
+}
+strong {
+    color: red;
+}
+.sold-out:hover {
+    background-color: red;
+}

@@ -1,3 +1,4 @@
+/* GENERAL */
 body {
     background-color: lightblue;
 }
@@ -11,52 +12,22 @@ a:link {
 a:visited {
     color: black;
 }
-nav a:active, li.selected {
-    color: white;
-}
-#col1, #col2, #col3, #col4 {
-    padding-right: 5vw;
-    margin-top: 0;
-}
-#col1 {
-    width: 10vw;
-    font-size: 2em;
-}
-#col2 {
-    width: 10vw;
-}
-#col3 {
-    width: 40vw;
-    font-size: 1em;
-}
-.song {
-    width: 100%;
-    display: inline-flex;
-    padding-bottom: 10vh;
-}
-.tour {
-    padding-bottom: 2vh;
-}
-strong {
-    color: red;
-}
-.sold-out:hover {
-    background-color: red;
-}
+
+/* CLASSES I CREATED */
 .page-title {
     font-size: 6em;
     color: white;
     text-align: center;
 }
-#home-img {
-    padding-top: 24%;
-    width: 23vw;
-    background-image: url("../images/imagine-dragons.jpg");
-}
 .center {
     margin: auto;
     display: block;
     text-align: center;
+}
+
+/* NAV */
+nav a:active, li.selected {
+    color: white;
 }
 nav {
     text-align: center;
@@ -68,16 +39,9 @@ nav ul li {
 li + li {
     margin-left: 4em;
 }
+
+/* COPYRIGHT */
 footer {
     text-align: center;
     padding-top: 2em;
-}
-.contact {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    text-align: center;
-    width: 50vw;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: gray;
 }
