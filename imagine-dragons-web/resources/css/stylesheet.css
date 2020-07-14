@@ -14,6 +14,23 @@ a:visited {
 nav a:active, li.selected {
     color: white;
 }
+#col1, #col2, #col3, #col4 {
+    display: inline-block;
+    padding-right: 5vw;
+}
+#col1 {
+    font-size: 2em;
+}
+#col2 {
+    width: 10vw;
+}
+#col3 {
+    width: 30vw;
+    font-size: 1em;
+}
+.song {
+    padding-bottom: 5vh;
+}
 .page-title {
     font-size: 6em;
     color: white;
