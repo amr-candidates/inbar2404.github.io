@@ -1,9 +1,7 @@
-.contact {
+.contact-form {
     display: flex;
-    margin: auto;
     flex-direction: column;
-    text-align: center;
-    width: 50vw;
+    width: 50em;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: gray;
 }
