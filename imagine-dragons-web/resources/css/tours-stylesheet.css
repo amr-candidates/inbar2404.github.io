@@ -1,0 +1,11 @@
+.tour {
+    padding-bottom: 2em;
+}
+
+button.sold-out:hover{
+    background-color: red;
+}
+
+.sold-out {
+    color: red;
+}

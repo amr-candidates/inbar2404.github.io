@@ -1,0 +1,20 @@
+.col1, .col2, .col3, .col4 {
+    padding-right: 3em;
+    width: 15rem;
+    margin-top: 0;
+}
+
+.col1 {
+    font-size: 2em;
+}
+
+.col3 {
+    width: 50em;
+    font-size: 1em;
+}
+
+.song {
+    width: 100%;
+    display: inline-flex;
+    padding-bottom: 10em;
+}
